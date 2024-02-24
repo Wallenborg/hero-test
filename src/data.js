@@ -1,3 +1,19 @@
+import icon001 from "./img/head.svg";
+import icon002 from "./img/hook.svg";
+import icon003 from "./img/timeline.svg";
+import icon004 from "./img/bug.svg";
+import icon005 from "./img/server.svg";
+import icon006 from "./img/animation.svg";
+import icon007 from "./img/cool.svg";
+
+import img001 from "./img/unsplash/code.webp";
+import img002 from "./img/unsplash/connections.webp";
+import img003 from "./img/unsplash/keyboard.webp";
+import img004 from "./img/unsplash/mobile.webp";
+import img005 from "./img/unsplash/network.webp";
+import img006 from "./img/unsplash/stringlights.webp";
+import img007 from "./img/unsplash/typing.webp";
+
 export const blogPosts = [
   {
     id: 1,
@@ -7,10 +23,10 @@ export const blogPosts = [
     sellingSentence:
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
-    imageUrl: "./src/img/head.svg",
+    imageUrl: icon001,
     altText: "icon head",
     link: "#1",
-    unsplashImage: "./src/img/unsplash/code.webp",
+    unsplashImage: img001,
     unsplashImageAltText: "green text that looks like code",
   },
   {
@@ -21,10 +37,10 @@ export const blogPosts = [
     sellingSentence:
       "Unlock the full potential of functional components with React Hooks!",
     author: "Emily Rodriguez",
-    imageUrl: "./src/img/hook.svg",
+    imageUrl: icon002,
     altText: "icon hook",
     link: "#2",
-    unsplashImage: "./src/img/unsplash/connections.webp",
+    unsplashImage: img002,
     unsplashImageAltText: "An image from Nasa showing lights covering America",
   },
   {
@@ -36,10 +52,10 @@ export const blogPosts = [
     sellingSentence:
       "Simplify state management in React with the clarity and power of Redux!",
     author: "Sophia Lee",
-    imageUrl: "./src/timeline.svg",
+    imageUrl: icon003,
     altText: "icon timeline",
     link: "#3",
-    unsplashImage: "./src/img/unsplash/keyboard.webp",
+    unsplashImage: img003,
     unsplashImageAltText: "a laptop keyboard",
   },
   {
@@ -51,10 +67,10 @@ export const blogPosts = [
     sellingSentence:
       "Build robust React applications with a comprehensive testing strategy!",
     author: "Alex Turner",
-    imageUrl: "./src/img/bug.svg",
+    imageUrl: icon004,
     altText: "icon bug",
     link: "#4",
-    unsplashImage: "./src/img/unsplash//mobile.webp",
+    unsplashImage: img004,
     unsplashImageAltText:
       "People in suits standing in a row looking at their phones",
   },
@@ -67,10 +83,10 @@ export const blogPosts = [
     sellingSentence:
       "Elevate your React apps with the power of Next.js for unparalleled speed and SEO!",
     author: "Daniel Chang",
-    imageUrl: "./src/img/server.svg",
+    imageUrl: icon005,
     altText: "icon server",
     link: "#5",
-    unsplashImage: "./src/img/unsplash/network.webp",
+    unsplashImage: img005,
     unsplashImageAltText:
       "A bunch of cables connected in a way that looks like a network",
   },
@@ -83,10 +99,10 @@ export const blogPosts = [
     sellingSentence:
       "Bring your React applications to life with captivating animations using React Spring!",
     author: "Sophia Lee",
-    imageUrl: "./src/img/animation.svg",
+    imageUrl: icon006,
     altText: "icon animation",
     link: "#6",
-    unsplashImage: "./src/img/unsplash/stringlights.webp",
+    unsplashImage: img006,
     unsplashImageAltText: "Blue lights connected by string",
   },
   {
@@ -98,10 +114,10 @@ export const blogPosts = [
     sellingSentence:
       "Explore the magic of React and understand why it's the coolest library for building cutting-edge user interfaces!",
     author: "Sarah Johnson",
-    imageUrl: "./src/img/cool.svg",
+    imageUrl: icon007,
     altText: "icon cool",
     link: "#7",
-    unsplashImage: "./src/img/unsplash/typing.webp",
+    unsplashImage: img007,
     unsplashImageAltText: "Hands typing on a keyboard",
   },
 ];
