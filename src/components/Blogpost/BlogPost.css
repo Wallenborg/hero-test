@@ -22,6 +22,11 @@ article {
   margin-bottom: 1rem;
 }
 
+.blog-img {
+  width: 100%;
+  height: auto;
+}
+
 .author {
   font-weight: 700;
   font-style: italic;
