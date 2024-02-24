@@ -1,5 +1,5 @@
 import "./Hero.css";
-import reactLogo from "../../../public/img/react.svg";
+import reactLogo from "../../../dist/assets/img/react.svg";
 
 function Hero() {
   return (
@@ -7,7 +7,7 @@ function Hero() {
       className="container-hero"
       aria-label="Hero section title with React logo"
     >
-      <h2 className="logo-text--top">TEst</h2>
+      <h2 className="logo-text--top">THE</h2>
       <h1 className="logo-text">
         REACT
         <img

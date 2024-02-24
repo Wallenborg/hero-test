@@ -7,10 +7,10 @@ export const blogPosts = [
     sellingSentence:
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
-    imageUrl: "../public/img/head.svg",
+    imageUrl: "../../dist/assets/img/head.svg",
     altText: "icon head",
     link: "#1",
-    unsplashImage: "../public/img/unsplash/code.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/code.webp",
     unsplashImageAltText: "green text that looks like code",
   },
   {
@@ -21,10 +21,10 @@ export const blogPosts = [
     sellingSentence:
       "Unlock the full potential of functional components with React Hooks!",
     author: "Emily Rodriguez",
-    imageUrl: "../public/img/hook.svg",
+    imageUrl: "../../dist/assets/img/hook.svg",
     altText: "icon hook",
     link: "#2",
-    unsplashImage: "../public/img/unsplash/connections.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/connections.webp",
     unsplashImageAltText: "An image from Nasa showing lights covering America",
   },
   {
@@ -36,10 +36,10 @@ export const blogPosts = [
     sellingSentence:
       "Simplify state management in React with the clarity and power of Redux!",
     author: "Sophia Lee",
-    imageUrl: "../public/img/timeline.svg",
+    imageUrl: "../../dist/assets/img/timeline.svg",
     altText: "icon timeline",
     link: "#3",
-    unsplashImage: "../public/img/unsplash/keyboard.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/keyboard.webp",
     unsplashImageAltText: "a laptop keyboard",
   },
   {
@@ -51,10 +51,10 @@ export const blogPosts = [
     sellingSentence:
       "Build robust React applications with a comprehensive testing strategy!",
     author: "Alex Turner",
-    imageUrl: "../public/img/bug.svg",
+    imageUrl: "../../dist/assets/img/bug.svg",
     altText: "icon bug",
     link: "#4",
-    unsplashImage: "../public/img/unsplash/mobile.webp",
+    unsplashImage: "../../dist/assets/img/unsplash//mobile.webp",
     unsplashImageAltText:
       "People in suits standing in a row looking at their phones",
   },
@@ -67,10 +67,10 @@ export const blogPosts = [
     sellingSentence:
       "Elevate your React apps with the power of Next.js for unparalleled speed and SEO!",
     author: "Daniel Chang",
-    imageUrl: "../public/img/server.svg",
+    imageUrl: "../../dist/assets/img/server.svg",
     altText: "icon server",
     link: "#5",
-    unsplashImage: "../public/img/unsplash/network.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/network.webp",
     unsplashImageAltText:
       "A bunch of cables connected in a way that looks like a network",
   },
@@ -83,10 +83,10 @@ export const blogPosts = [
     sellingSentence:
       "Bring your React applications to life with captivating animations using React Spring!",
     author: "Sophia Lee",
-    imageUrl: "../public/img/animation.svg",
+    imageUrl: "../../dist/assets/img/animation.svg",
     altText: "icon animation",
     link: "#6",
-    unsplashImage: "../public//unsplash/stringlights.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/stringlights.webp",
     unsplashImageAltText: "Blue lights connected by string",
   },
   {
@@ -98,10 +98,10 @@ export const blogPosts = [
     sellingSentence:
       "Explore the magic of React and understand why it's the coolest library for building cutting-edge user interfaces!",
     author: "Sarah Johnson",
-    imageUrl: "../public/img/cool.svg",
+    imageUrl: "../../dist/assets/img/cool.svg",
     altText: "icon cool",
     link: "#7",
-    unsplashImage: "../public//img/unsplash/typing.webp",
+    unsplashImage: "../../dist/assets/img/unsplash/typing.webp",
     unsplashImageAltText: "Hands typing on a keyboard",
   },
 ];
