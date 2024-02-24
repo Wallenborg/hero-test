@@ -7,10 +7,10 @@ export const blogPosts = [
     sellingSentence:
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
-    imageUrl: "src/img/head.svg",
+    imageUrl: require("src/img/head.svg"),
     altText: "icon head",
     link: "#1",
-    unsplashImage: "src/img/unsplash/code.webp",
+    unsplashImage: require("src/img/unsplash/code.webp"),
     unsplashImageAltText: "green text that looks like code",
   },
   {
