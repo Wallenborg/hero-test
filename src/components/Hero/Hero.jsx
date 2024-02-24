@@ -7,7 +7,7 @@ function Hero() {
       className="container-hero"
       aria-label="Hero section title with React logo"
     >
-      <h2 className="logo-text--top">THE</h2>
+      <h2 className="logo-text--top">TEst</h2>
       <h1 className="logo-text">
         REACT
         <img
