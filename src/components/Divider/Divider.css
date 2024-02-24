@@ -1,0 +1,17 @@
+.divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.line {
+  height: 10px;
+  width: 35%;
+  background-color: #61dafb;
+}
+
+.divider--titel {
+  color: #61dafb;
+  font-size: 1.8rem;
+  justify-self: center;
+}

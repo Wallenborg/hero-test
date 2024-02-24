@@ -1,0 +1,81 @@
+.post-list-section {
+  background-color: #61dafb;
+  height: 40rem;
+  overflow: scroll;
+  border-bottom: 10px solid #61dafb;
+  margin-bottom: 20px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  padding: 3rem 0;
+}
+
+.post-list-item.hidden {
+  display: none;
+}
+
+.post-list-item {
+  list-style: none;
+  width: 90%;
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 6px 7px 5px 1px rgba(0, 115, 255, 0.2);
+}
+
+.load-more-posts {
+  z-index: 10;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  bottom: 1.7rem;
+}
+
+.load-more-button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.no-more-posts-message {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.fade-out {
+  height: 5rem;
+  position: absolute;
+  bottom: 9rem;
+  width: 100%;
+  background: rgb(97, 218, 251);
+  background: linear-gradient(
+    0deg,
+    rgba(97, 218, 251, 1) 13%,
+    rgba(255, 255, 255, 0) 96%
+  );
+}
+
+@media screen and (min-width: 700px) {
+  .post-list-item {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .post-list-item {
+    width: 45%;
+  }
+}

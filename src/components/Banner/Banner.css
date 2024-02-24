@@ -1,0 +1,46 @@
+.main {
+  text-align: center;
+  background: linear-gradient(100deg, transparent 0%, #61dafb 200%);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 250px;
+  padding-top: 40px;
+}
+
+.sect1 {
+  font-size: xx-large;
+  font-weight: 100;
+  margin-bottom: 0;
+  color: #3a5763;
+}
+.sect2 {
+  font-size: large;
+}
+
+.signUp {
+  border-radius: 20px;
+  padding: 10px;
+  width: 130px;
+  font-size: 15px;
+  border: solid 2px;
+  border-color: rgba(0, 0, 0, 0.084);
+  background-color: #61dafb;
+  color: white;
+}
+.banner-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: -20px;
+}
+@media (max-width: 380px) {
+  .main {
+    padding-bottom: 20px;
+  }
+  .sect1 {
+    font-size: x-large;
+  }
+  .sect2 {
+    font-size: medium;
+  }
+}
