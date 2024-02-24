@@ -6,7 +6,7 @@ function FeaturedBlogPostList() {
   console.log("Imported blogPosts:", blogPosts);
 
   // Choose which three blog posts to display by specifying their indexes
-  const postIndexesToShow = [0, 4, 5];
+  const postIndexesToShow = [0, 4, 2];
 
   // Filter the blogPosts array based on the selected indexes
   const featuredPosts = postIndexesToShow.map((index) => blogPosts[index]);
