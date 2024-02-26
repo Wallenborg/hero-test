@@ -39,7 +39,7 @@ export const blogPosts = [
     author: "Emily Rodriguez",
     imageUrl: icon002,
     altText: "icon hook",
-    link: "#2",
+    link: "2",
     unsplashImage: img002,
     unsplashImageAltText: "An image from Nasa showing lights covering America",
   },

@@ -42,8 +42,8 @@ function App() {
         <FeaturedBlogPostList />
         <Banner />
         <Divider text={"Blog Post"} /> */}
-        <Route path="/blog/:postId" element={BlogPost} />
-        <Route exact path="/blog" element={BlogPostList} />
+        <Route path="/blog/:postId" element={<BlogPost />} />
+        <Route path="/blog" element={<BlogPostList />} />
         {/* <Footer /> */}
         {/* </> */}
       </Routes>

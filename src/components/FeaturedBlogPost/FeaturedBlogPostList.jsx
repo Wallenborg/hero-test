@@ -60,7 +60,7 @@ function FeaturedBlogPostList() {
                   imageUrl={post.imageUrl}
                   altText={post.altText}
                   author={post.author}
-                  link={post.link}
+                  // link={post.link}
                 />
               </Link>
             </li>
