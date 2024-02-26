@@ -19,7 +19,12 @@ export default function BlogPost({ post }) {
         <h3 className="title">{post.title}</h3>
         {post.subtitle ? <h4 className="subtitle">{post.subtitle}</h4> : null}
         <p className="author">Author: {post.author}</p>
-        <img className="blog-img" src={post.unsplashImage} alt={post.unsplashImageAltText}></img>
+        <img
+          loading="lazy"
+          className="blog-img"
+          src={post.unsplashImage}
+          alt={post.unsplashImageAltText}
+        ></img>
         {/* <img className="post-icon" src={post.imageUrl} alt={post.altText}></img> */}
         <div className={`reveal-full-post ${fullPost ? "" : "hidden"}`}>
           <p className="content">{post.content}</p>
